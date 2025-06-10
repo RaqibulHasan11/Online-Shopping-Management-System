@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE55BF22-BE54-80BE-406C-14916CB12E45" name="User">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:15:08 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_id" id="35BEBD94-30CD-3E36-4AAF-549D37EDB090">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:16:59 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="0A55618F-F86E-D24B-00EF-919DFE28F380">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:17:48 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="4360780B-10C2-33DF-F0CB-6ECB9C876B2D">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:18:31 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="099A10FE-E20A-9D48-CA1E-F28306B58BB7">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:19:14 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="64E2AD2D-F4F4-3429-E67B-E0BDD4FE2B96">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:19:39 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="1ADE1DB1-C5A3-ED9E-30A3-F23AAE69219E">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:19:54 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="720FB4CD-A4AC-FEE2-319E-9AE6899C30C6" name="User PK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:17:32 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35BEBD94-30CD-3E36-4AAF-549D37EDB090</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

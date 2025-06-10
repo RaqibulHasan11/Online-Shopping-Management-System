@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="product_order" directorySegmentName="seg_0" id="525F8392-E941-CB8C-1EBA-18C0F1CCF4DC">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:03:21 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<sourcePk>343389B3-37A1-7B2C-3E6A-5DD18C52B4B1</sourcePk>
+<targetPk>5A003A35-1434-BDDB-3109-E13C217ED67B</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D19ABBDB-019E-2938-4050-4C35BF556B6F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FD66DCF3-C4DF-2C76-BEC7-288533BA7BB5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="order_payment" directorySegmentName="seg_0" id="2F7B165C-1BBA-E6BA-2C72-63DEABCC5D03">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:07:32 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<sourcePk>5A003A35-1434-BDDB-3109-E13C217ED67B</sourcePk>
+<targetPk>DD437E70-3BE0-D550-2F69-7B258CEC00CE</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD66DCF3-C4DF-2C76-BEC7-288533BA7BB5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E2E89A4D-B84B-390B-9014-EEBC6CF458DE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51B337AC-8174-81F3-8CFD-D071F11AB204" name="User">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>FE55BF22-BE54-80BE-406C-14916CB12E45</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="D66868B3-AADF-1CD0-725A-2B70184D681B">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>35BEBD94-30CD-3E36-4AAF-549D37EDB090</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="63F414A8-888F-643D-4096-CA5EC84781FE">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>0A55618F-F86E-D24B-00EF-919DFE28F380</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="CE27511B-5FDF-9711-26A7-F88FC5FAD0E2">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>4360780B-10C2-33DF-F0CB-6ECB9C876B2D</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="F3927C84-4E3B-83A2-0CF7-9A74ECA6B369">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>099A10FE-E20A-9D48-CA1E-F28306B58BB7</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="3BD6509D-E6E5-A8D2-835D-320C129D505B">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>64E2AD2D-F4F4-3429-E67B-E0BDD4FE2B96</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="06823166-20A9-1E11-D61A-42225AA452F8">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>1ADE1DB1-C5A3-ED9E-30A3-F23AAE69219E</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4393EDFC-313A-F316-9A83-018E33D11866" name="User_PK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>720FB4CD-A4AC-FEE2-319E-9AE6899C30C6</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D66868B3-AADF-1CD0-725A-2B70184D681B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

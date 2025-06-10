@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1161FA6-C213-0D8B-AB9F-3E6D2151B27A" name="oeder_item">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:25:35 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="order_item_id" id="5EDF418A-8B1A-EF6F-D591-BDA2833D29FE">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:47:04 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="4867F97C-5A5E-6891-717A-D9AB0CDC3F02">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:47:39 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="91E58986-E036-F3FD-BDD7-CDE8FEFE4227">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:48:03 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="order_id" id="1A728818-F18E-ECC8-5D74-CDF35FA83411">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:08:18 UTC</createdTime>
+<generatorID>9B139883-3754-C2DD-7B1E-04D4AE66787F</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7E28B105-BAE6-5932-2DFE-498FFE3465DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="46C20FD2-0C6C-D1FB-6CBE-C32C599C8050" name="oeder_item PK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 16:47:26 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<engineerTo>
+<item key="1008831D-A215-7367-78DC-8BE308626195" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5EDF418A-8B1A-EF6F-D591-BDA2833D29FE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

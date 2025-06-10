@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5854DB89-106D-E4D8-E7CA-36527D26472A" name="oeder_item">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>E1161FA6-C213-0D8B-AB9F-3E6D2151B27A</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="order_item_id" id="371AE913-C5B8-979F-5B4A-849035E70921">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>5EDF418A-8B1A-EF6F-D591-BDA2833D29FE</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="F426CECC-7350-B64F-0925-3F77DC784B6C">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>4867F97C-5A5E-6891-717A-D9AB0CDC3F02</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="37A71C41-8E2A-9059-88CD-C96FD8E69EF9">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>91E58986-E036-F3FD-BDD7-CDE8FEFE4227</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_order_id" id="878FBA8B-D472-348F-9FF7-77572AFDB7C5">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>1A728818-F18E-ECC8-5D74-CDF35FA83411</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BE8C80F-0E63-7ABF-D57C-4EB733369BE9" referredColumn="C23BE29E-5FBC-FB88-5F72-4E5B08B67B03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9438B37-A8EF-05B3-3868-9F8BA54CAABC" name="oeder_item_PK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>46C20FD2-0C6C-D1FB-6CBE-C32C599C8050</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="371AE913-C5B8-979F-5B4A-849035E70921"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA1BEAD2-BD29-A8DB-CE38-AD3CBEDEBD03" name="oeder_item_order_FK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>9B139883-3754-C2DD-7B1E-04D4AE66787F</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="878FBA8B-D472-348F-9FF7-77572AFDB7C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

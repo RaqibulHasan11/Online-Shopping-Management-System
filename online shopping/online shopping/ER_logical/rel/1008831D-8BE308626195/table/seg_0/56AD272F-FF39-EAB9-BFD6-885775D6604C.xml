@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56AD272F-FF39-EAB9-BFD6-885775D6604C" name="payment">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>E2E89A4D-B84B-390B-9014-EEBC6CF458DE</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="payment_id" id="0BC33823-1AB7-A8A2-AAD8-DF27B9DDB282">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>B20FA584-B69C-9341-B807-502809C48763</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_date" id="CA94417F-5F69-2665-FA8F-8F7B8E427F7B">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>BE3DBCA2-9B2E-B7C8-777A-1AD5132E9832</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="42B951C8-B494-B9E4-2CB1-6781F6C51136">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>AC9E1315-8BD3-FE32-B5FA-673C8E7886DF</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_method" id="3CABA2CB-102F-5F54-4376-2D05C131EBAA">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>90B269ED-E626-E475-307C-D80D27D4925D</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_status" id="12D65DC2-355C-8482-F409-5FC16D613E73">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>B3D8D372-3638-7041-F3A7-0A4D632E16DD</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_order_id" id="F49B4A32-6FF0-F7FD-1CF8-EC5A32E70143">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>6AAE812E-FC18-447D-75B0-2F989D58B0FA</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="905148C4-028B-7B0B-CFA1-4B4A5594AD43" referredColumn="C23BE29E-5FBC-FB88-5F72-4E5B08B67B03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DEBC05B-D7E0-ABE7-842D-961B84AD6A06" name="payment_PK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>DD437E70-3BE0-D550-2F69-7B258CEC00CE</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BC33823-1AB7-A8A2-AAD8-DF27B9DDB282"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="802EC1E7-BB7B-189C-D272-D552E566A2D5" name="payment__IDX">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<ownerDesignName>ER_logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2F7B165C-1BBA-E6BA-2C72-63DEABCC5D03</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F49B4A32-6FF0-F7FD-1CF8-EC5A32E70143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65DAB5D3-8C2F-4FC1-4167-DEDC1148B44D" name="payment_order_FK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>2F7B165C-1BBA-E6BA-2C72-63DEABCC5D03</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F49B4A32-6FF0-F7FD-1CF8-EC5A32E70143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

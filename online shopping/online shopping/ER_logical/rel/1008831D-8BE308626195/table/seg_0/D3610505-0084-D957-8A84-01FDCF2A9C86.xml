@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3610505-0084-D957-8A84-01FDCF2A9C86" name="product">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>D19ABBDB-019E-2938-4050-4C35BF556B6F</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="product_id" id="3205830A-5F26-6768-9EE5-5297960768F0">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>F1D131A3-325E-DB7D-4D71-FF47004604BB</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="p_name" id="E5AC7235-4246-7CCC-41B0-774794F03021">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>4A6774DC-AFC4-22D7-0541-F7C8503780E1</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="3157BCFE-1A7E-ED39-CB16-F4ACF1763EA7">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>95CDC6B6-C7B2-D019-33DC-92BE3A8F5E65</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="09D15B2E-CD6A-456A-4FA3-D8FA67718212">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>A7205F36-EE39-C55E-1E0E-D2DF7B7E60E0</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock" id="E51B7796-171A-DACA-F273-3DDDD61A223C">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>926062F0-7BBF-B778-8C55-6E5E69AFA525</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="product_category_category_id" id="4452084D-0320-8AC9-A875-A9A1034DF087">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>547FDB59-C832-62F7-DB0A-6B9F327203FF</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="655177BA-D0C2-0F12-ADE8-AFD3207B84ED" referredColumn="508F9FCE-7ACE-5BC6-FD11-79414B484F1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AE345CF-4DD2-4571-C924-81E7CA155CF8" name="product_PK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>343389B3-37A1-7B2C-3E6A-5DD18C52B4B1</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3205830A-5F26-6768-9EE5-5297960768F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A54F2B7D-74A1-3D2D-02B4-AC680445F490" name="product_product_category_FK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-01-20 17:10:19 UTC</createdTime>
+<generatorID>9898175A-0BB1-FE8E-8B27-5005CBD5E51C</generatorID>
+<ownerDesignName>ER_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4452084D-0320-8AC9-A875-A9A1034DF087"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
